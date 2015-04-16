@@ -8,7 +8,7 @@ var wrapped = _(_.range(0, 10000)).map(function(doh, meters) {
   // Fill in the empty array, convert to Miles
   return Math.round(meters / 1609.344 * 100) / 100;
 }).unique().filter(function(miles) {
-  // Only want the miles in 1/4 mile incriments.
+  // Only want the miles in 1/4 mile increments.
   return (miles * 100) % 25 === 0;
 }).map(function(miles) {
   // Format remaining Values...
