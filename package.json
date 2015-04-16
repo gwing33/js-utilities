@@ -1,0 +1,24 @@
+{
+  "name": "js-utilities",
+  "version": "1.0.0",
+  "description": "Comparing Lodash, BaconJS and RxJS",
+  "main": "lodash_test.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwing33/js-utilities.git"
+  },
+  "author": "Gerald Leenerts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwing33/js-utilities/issues"
+  },
+  "homepage": "https://github.com/gwing33/js-utilities",
+  "dependencies": {
+    "baconjs": "^0.7.53",
+    "lodash": "^3.6.0",
+    "rx": "^2.5.2"
+  }
+}
