@@ -16,5 +16,4 @@ Bacon.repeat(function(i) {
   console.log((miles).formatNumber(2, '.',',') + ' Mi');
 });
 
-
 console.timeEnd('BaconJs Streaming');
