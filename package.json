@@ -2,7 +2,7 @@
   "name": "js-utilities",
   "version": "1.0.0",
   "description": "Comparing Lodash, BaconJS and RxJS",
-  "main": "lodash_test.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
