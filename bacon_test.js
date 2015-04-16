@@ -11,12 +11,7 @@ Bacon.repeat(function(i) {
 }).skipDuplicates().filter(function(miles) {
   // Only want the miles in 1/4 mile increments.
   return (miles * 100) % 25 === 0;
-}).subscribe(function(miles) {
-  if(miles.isEnd()) {
-    return;
-  }
-
-  miles = parseFloat(miles);
+}).onValue(function(miles) {
   // Format remaining Values...
   console.log((miles).formatNumber(2, '.',',') + ' Mi');
 });
